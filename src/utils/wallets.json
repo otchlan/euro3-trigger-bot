@@ -1,0 +1,50 @@
+[
+  {
+    "address": "0xa31Ba299436CC80e3a97Df5F2a9a6d4f2C1049F5",
+    "privateKey": "0x60848fc47707046315909f8ce8881f28fd4e5af5735cdb3bfd0c4b82430f8706",
+    "chainId": "59141",
+    "chainName": "linea-sepolia"
+  },
+  {
+    "address": "0xE98D071c95f1ddb718512f0893f53AB70ad5FE3C",
+    "privateKey": "0x0820f244e1bd1fba5fbafe24a130462d786c4e20a57d12f1c3434775038f105b",
+    "chainId": "59141",
+    "chainName": "linea-sepolia"
+  },
+  {
+    "address": "0x12e1063C9910cdf5e748C23303DA67DEc186DC3a",
+    "privateKey": "0x1258df21fdaef60d3c430e5f4509b90d990155647878d6bf0780540a06e0d919",
+    "chainId": "59141",
+    "chainName": "linea-sepolia"
+  },
+  {
+    "address": "0x09944235c9b70f9F269206623799c363295d1d64",
+    "privateKey": "0x0731b8fc878c6f1f629a6a809bf71d2ff4d2b69e97820658ee707ed83e15f8f7",
+    "chainId": "59141",
+    "chainName": "linea-sepolia"
+  },
+  {
+    "address": "0xba4cCFEb0ee1d2C546aF3a2aeC80fbA13EC07A5D",
+    "privateKey": "0xb07751d79770fc8947997601cc955fe0c43eb7f7328862ba81f5b204b65e7be4",
+    "chainId": "59144",
+    "chainName": "linea"
+  },
+  {
+    "address": "0x4d21Cc2611444A30F0095ded1c264287D034d887",
+    "privateKey": "0xcaed34d1836fa9a3e3150ad0d6869a1cc0bc4d91c9c32bfb0e914a5bf109b809",
+    "chainId": "59144",
+    "chainName": "linea"
+  },
+  {
+    "address": "0xE4E77Fc818A36c99cecAEF8239Cc07F97aF2de45",
+    "privateKey": "0x4748ba17cd11b68fe401434f3df22200d87498b7b7b55e72076212d7278b3b22",
+    "chainId": "59144",
+    "chainName": "linea"
+  },
+  {
+    "address": "0x1cF0876452921459299bb8716077B19873F5CE10",
+    "privateKey": "0x6b4d90065b12b854816bd85e0ae170d07647f216fb3239af4f979328612d5beb",
+    "chainId": "59144",
+    "chainName": "linea"
+  }
+]

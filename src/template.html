@@ -1,0 +1,25 @@
+<!-- src/template.html !-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+    <link rel="stylesheet" href="/styles.module.css">
+</head>
+<body>
+    <div class="grid-container">
+        {{#items}}
+        <div class="grid-item">
+            <h3>{{title}}</h3>
+            {{#error}}
+                <p style="color: red;">Error: {{error}}</p>
+            {{/error}}
+            {{^error}}
+                <pre>{{content}}</pre>
+            {{/error}}
+        </div>
+        {{/items}}
+    </div>
+</body>
+</html>

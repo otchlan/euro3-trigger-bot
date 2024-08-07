@@ -3,10 +3,18 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run src/server.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@consensys/linea-sdk": "^0.3.0",
+    "@ethersproject/units": "^5.7.0",
+    "axios": "^1.7.2",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "elysia": "latest",
+    "ethers": "^6.13.2",
+    "mustache": "^4.2.0",
+    "node-cron": "^3.0.3"
   },
   "devDependencies": {
     "bun-types": "latest"

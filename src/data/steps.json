@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "id": "step1",
+      "target": "0xC6bC3071EFB96b9fc4Dab76d5658eF4b62dEaCd0",
+      "method": {
+        "name": "getReward(uint256 tokenId,address tokens)",
+        "id": "0xf5f8d365",
+        "types": ["uint256", "address"],
+        "params": ["<tokenId>", "<tokenAddress>"]
+      }
+    },
+    {
+      "id": "step2",
+      "target": "0xe8a4c9B6a2b79Fd844c9e3AdBc8Dc841eEce557B",
+      "method": {
+        "name": "exerciseVe(uint256 _amount,uint256 _maxPaymentAmount,address _recipient,uint256 _deadline)",
+        "id": "0x62994c05",
+        "types": ["uint256", "uint256", "address", "uint256"],
+        "params": ["<amount>", "<maxPaymentAmount>", "<recipient>", "<deadline>"]
+      }
+    },
+    {
+      "id": "step3",
+      "target": "0x8D95f56b0Bac46e8ac1d3A3F12FB1E5BC39b4c0c",
+      "method": {
+        "name": "increaseUnlockTime(uint256 _tokenId,uint256 _lockDuration,bool _permanent)",
+        "id": "0x9f194422",
+        "types": ["uint256", "uint256", "bool"],
+        "params": ["<tokenId>", "<lockDuration>", "<permanent>"]
+      }
+    },
+    {
+      "id": "step4",
+      "target": "0xA2bB9C8e2f4D1e8Fc4D98eF6F3b3B1B0B2b8cC1a",
+      "method": {
+        "name": "adjustPosition(uint256 _positionId, uint256 _amount)",
+        "id": "0x12345678",
+        "types": ["uint256", "uint256"],
+        "params": ["<positionId>", "<amount>"]
+      }
+    }
+  ]
+}

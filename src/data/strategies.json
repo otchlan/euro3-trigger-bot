@@ -1,0 +1,99 @@
+{
+  "strategies": [
+    {
+      "id": "strategy1",
+      "name": "Weekend High APR Strategy",
+      "conditions": [
+        {
+          "type": "dayOfWeek",
+          "value": ["Saturday", "Sunday"]
+        },
+        {
+          "type": "aprComparison",
+          "threshold": 0.05,
+          "comparison": "greater"
+        }
+      ],
+      "paths": [
+        {
+          "steps": ["step1", "step2", "step3"]
+        }
+      ]
+    },
+    {
+      "id": "strategy2",
+      "name": "Midweek Low APR Strategy",
+      "conditions": [
+        {
+          "type": "dayOfWeek",
+          "value": ["Thursday"]
+        },
+        {
+          "type": "aprComparison",
+          "threshold": -0.03,
+          "comparison": "greater"
+        }
+      ],
+      "paths": [
+        {
+          "steps": ["step4"]
+        }
+      ]
+    },
+    {
+      "id": "strategy3",
+      "name": "High APR on Friday Strategy",
+      "conditions": [
+        {
+          "type": "dayOfWeek",
+          "value": ["Friday"]
+        },
+        {
+          "type": "aprComparison",
+          "threshold": 0.05,
+          "comparison": "greater"
+        }
+      ],
+      "paths": [
+        {
+          "steps": ["step5", "step6"]
+        }
+      ]
+    },
+    {
+      "id": "strategy4",
+      "name": "Monthly Check Strategy",
+      "conditions": [
+        {
+          "type": "dayOfMonth",
+          "value": [1]
+        },
+        {
+          "type": "aprComparison",
+          "threshold": 0.04,
+          "comparison": "greater"
+        }
+      ],
+      "paths": [
+        {
+          "steps": ["step7"]
+        }
+      ]
+    },
+    {
+      "id": "strategy5",
+      "name": "Special Event Strategy",
+      "conditions": [
+        {
+          "type": "specialEvent",
+          "value": ["EventX"]
+        }
+      ],
+      "paths": [
+        {
+          "steps": ["step8"]
+        }
+      ]
+    }
+  ]
+}
