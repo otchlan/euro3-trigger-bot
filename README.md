@@ -14,3 +14,6 @@ In `src/fetchContractData/ts` I'm testing in and out data flow with blockchain. 
 
 
 - `contracts/batchProxyContract.sol` implementatnion of step 4. Batch call
+
+
+I work on docs in `src/docs.md`
